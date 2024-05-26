@@ -6,7 +6,7 @@ authors = ["Vitaly Klimenko <vitostikitos@gmail.com>"]
 
 packages = [
     { include = "python-test-package" },
-    { include = "python-test-package/**/*.py" },
+    { include = "python-test-package/*.py" },
 ]
 
 
