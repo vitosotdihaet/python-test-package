@@ -5,6 +5,7 @@ description = ""
 authors = ["Vitaly Klimenko <vitostikitos@gmail.com>"]
 
 packages = [
+    { include = "test" }
     { include = "*.py" },
 ]
 
