@@ -4,7 +4,7 @@ setup(
     name='python_test_package',
     version='0.1.0',
     packages=find_packages(),
-    install_requires=['kafka'],
+    install_requires=[],
     author='Vitaly Klimenko',
     author_email='vitostikitos@gmail.com',
     description='A simple greeting library',
