@@ -1,3 +1,10 @@
-import python_test_package.supa_lib
+from .supa_lib import greet
 
-print('ASIDHOAHSODHAOSDH')
+some_global_variable = 'omg'
+
+__all__ = [
+    'greet'
+]
+
+
+print('Initialize this fucking package!!!')
